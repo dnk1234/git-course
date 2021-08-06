@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+
+:root{
+    --textColor: rgba(80, 95, 152, 1);
+    --header-primary:rgba(9, 17, 51, 1);
+    --container: 1110px;
+    --maintext-size: 18px;
+    --text-size:16px;
+    --header-size: 36px;
+    --medium: 500;
+    
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;   
+}
+a{
+    text-decoration: none;
+}
+h2{
+    margin-top: 15px;
+    
+}
+h5{
+    text-align: center;
+    font-size: 50px;
+    color: (--header-primary);
+}
+h6{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+    color: rgba(55, 68, 126, 1);
+}
+.top{
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(55, 68, 126, 1);
+}
+p{
+    margin-top: 15px;
+    color: rgba(55, 68, 126, 1);
+
+}
+
+.container{
+    max-width: var(--container);
+    margin: 0 auto;
+}
+.header{
+    position: relative;
+    
+    overflow: hidden;
+
+}
+.header_bg{
+    position: absolute;
+    width: 1500px;
+    z-index: 1;
+    height: inherit;
+    right: -25%;
+    top: 0;
+    right: -23%;
+   
+}
+
+.header_body{
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_menu{
+    display: flex;
+
+}
+.header_item:not(:last-child){
+    margin-right: 60px;
+}
+.header_link{
+    display: inline-block;
+    font-size: 14px;
+    color: var(--textColor);
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    color: rgba(55, 68, 126, 1);
+    font-size: 26px;
+    font-weight: 900;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 1 595px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    min-width: 160px;
+    line-height: 18px;
+    background-color: var(--header-primary);
+    border: 2px solid var(--header-primary);
+    border-radius: 2px;
+}
+.header_wrapper{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 777;
+    width: 100%;
+}
+.header_btn{
+
+}
+/* mainscreen */
+.main_first{
+    margin-top: 100px;
+}
+.mainscreen{
+    margin-bottom: 260px;
+
+}
+.mainscreen_wrapper{
+    min-height: 1160px;
+}
+.mainscreen_body{
+    display: flex;
+    align-items: center;
+}
+.mainscreen_content{
+    max-width: 540px;
+}
+.mainscreen_title{
+    font-size: 48px;
+    font-weight: var(--header-size);
+    margin-bottom: 20px;
+
+}
+.mainscreen_text{
+    font-style: var(--maintext-size);
+    line-height: 30px;
+    color: var(--textColor);
+    margin-bottom: 70px;
+}
+.mainscreen_buttons{
+    display: flex;
+    column-gap: 30px;
+}
+.mainscreen_buttons .btn{
+    font-size: var(--text-size);
+    line-height: 26px;
+    flex: 0 0 190px;
+
+}
+.mainscreen_more{
+    background-color: transparent;
+    color: var(--header-primary);
+    transition: .4s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.mainscreen_more:hover{
+    color: rgba(255,255,255,1);
+    background-color: var(--header-primary);
+}
+.mainscreen_wrapper{
+    background: url(../img/header-bg.svg) 150% -100% /75% no-repeat;
+}
+.column-3 {
+    width: 33.33%;
+}
+
+.mainscreen_intro{
+    display: flex;
+    align-items: flex-end;
+}
+.rnh{
+    display: flex;
+}
+.mainscreen_intro_pic{
+    margin-right: 30px;
+}
+.qw{
+    margin-left: 90px;
+}
+footer{
+    background-color: #E7ECFF;
+    padding-top: 61px;
+    padding-bottom: 30px;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer_bottom_left, .footer_bottom_right, ul {
+    display: flex;
+
+}
+
+
+.skrip{
+    padding-bottom: 176px;
+    background-color: #eef1fc;
+}
+
+.dnk{
+    margin: 40px 0 20px 0;
+}
+
+.footer_list > li {
+    margin-right: 60px;
+}
+.skrip-text{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+
+.btn_2{
+    margin-top: 9px;
+    width: 15%;
+    margin: 0 auto;
+}
+.skrip_btn, .btn, .btn_2{
+    margin-top: 30px;
+}
